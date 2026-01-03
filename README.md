@@ -1,4 +1,4 @@
-# Landscape AI
+# Lawnscape AI
 
 The intelligent visualization tool for modern architectural studios.
 Transform raw site photos into high-fidelity landscape proposals in seconds.
