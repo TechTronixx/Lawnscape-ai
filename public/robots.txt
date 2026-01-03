@@ -1,0 +1,23 @@
+# robots.txt
+User-agent: *
+Allow: /
+Disallow: /private/
+Disallow: /admin/
+Disallow: /*.json$
+
+# Sitemaps
+Sitemap: https://landscape-ai.vercel.app/sitemap.xml
+
+# --- AI & Scraper Control ---
+
+# Block OpenAI (ChatGPT) training data
+User-agent: GPTBot
+Disallow: /
+
+# Block Common Crawl (Used by many LLMs)
+User-agent: CCBot
+Disallow: /
+
+# Block Google's AI specific scraper (Bard/Gemini)
+User-agent: Google-Extended
+Disallow: /

@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+/* -- LawnScape AI -- 
+Author : TechTronixx */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@theme {
+  --color-background: #f4f4f0; /* warm cream */
+  --color-foreground: #121212; /* sharp black */
+  --color-primary: #4a5d23; /* olive green */
+  --color-muted: #888888;
+  --color-border: #e5e5e5;
+
+  --font-display: "Clash Display", sans-serif;
+  --font-body: "Satoshi", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --animate-fade-in: fadeIn 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  --animate-slide-up: slideUp 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+  }
+
+  /* aggressive typography */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: -0.04em;
+    line-height: 0.9;
+  }
+
+  .text-mega {
+    font-size: clamp(4rem, 12vw, 9rem);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
