@@ -3,17 +3,16 @@
 The intelligent visualization tool for modern architectural studios.
 Transform raw site photos into high-fidelity landscape proposals in seconds.
 
-![App Preview](/public/Land_View-Hero.mp4)
+![App Preview](public/Land_View-Hero.mp4)
 
 ## Design Philosophy: "Effortless Elegance"
 
 The interface is designed to feel like a high-end **Italian Architectural Studio** rather than a generic SaaS tool.
 Key aesthetic choices include:
 
-- **Typography**: _Clash Display_ (Headings) for structural impact, paired with _Satoshi_ (UI) for modern readability.
+- **Typography**: _Space Grotesk_ (Headings) for structural impact, paired with _Satoshi_ (UI) for modern readability.
 - **Palette**: **Olive Green** (`#4A5D23`) accents grounded by **Warm Cream** (`#F4F4F0`) backgrounds.
 - **Materials**: Glassmorphism (`backdrop-blur-xl`) and subtle gradients evoke transparency and light.
-- **Micro-Delights**: "Drafting" animations replace generic spinners, simulating the creative process.
 
 ## Features
 
@@ -27,8 +26,9 @@ Key aesthetic choices include:
 - **Framework**: React + Vite
 - **Styling**: Tailwind CSS v4
 - **Animation**: Framer Motion
+- **Interaction**: React Dropzone, Lenis (Smooth Scroll)
 - **Icons**: Lucide React
-- **Type**: Fontshare CDN (Clash Display, Satoshi)
+- **Type**: Fontshare CDN (Space Grotesk, Satoshi), Google Fonts (JetBrains Mono)
 
 ## Installation
 
