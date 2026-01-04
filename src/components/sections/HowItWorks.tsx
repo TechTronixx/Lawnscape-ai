@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 
 export function HowItWorks() {
@@ -91,7 +90,7 @@ export function HowItWorks() {
           </span>
 
           {/* Visual */}
-          <div className="relative h-48 sm:h-56 rounded-2xl bg-gradient-to-br from-[#F4F4F0] to-[#EAEAE5] border border-primary/10 overflow-hidden mb-8 p-6 group-hover:from-[#EAEAE5] group-hover:to-[#dcdcd7] transition-colors">
+          <div className="relative h-48 sm:h-56 rounded-2xl bg-linear-to-br from-[#F4F4F0] to-[#EAEAE5] border border-primary/10 overflow-hidden mb-8 p-6 group-hover:from-[#EAEAE5] group-hover:to-[#dcdcd7] transition-colors">
             <div className="bg-white/90 border border-primary/10 rounded-xl p-4 w-full shadow-sm h-full flex flex-col justify-center gap-3">
               <div className="flex gap-2">
                 <div className="w-2 h-2 rounded-full bg-red-400/40"></div>
