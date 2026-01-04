@@ -17,7 +17,7 @@ Author : TechTronixx */
   --color-muted: #888888;
   --color-border: #e5e5e5;
 
-  --font-display: "Clash Display", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
   --font-body: "Satoshi", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
 
@@ -58,6 +58,23 @@ Author : TechTronixx */
 
   .text-balance {
     text-wrap: balance;
+  }
+
+  /* Ambient Vignette */
+  .vignette {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+    background: radial-gradient(
+      circle at center,
+      transparent 20%,
+      rgba(74, 93, 35, 0.08) 120%
+    );
+    /* Subtle warm/olive darkening at edges */
   }
 }
 

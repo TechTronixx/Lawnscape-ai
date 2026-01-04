@@ -96,7 +96,7 @@ export const Generator = () => {
                         Drafting Geometry...
                       </h3>
                       <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground">
-                        Analyzing Light & Shadow
+                        Analyzing terrain & elements...
                       </p>
                     </div>
                   </div>
