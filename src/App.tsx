@@ -6,6 +6,7 @@ import { ComparisonSlider } from "./components/ui/ComparisonSlider";
 import { motion, AnimatePresence } from "framer-motion";
 import { SmoothScroll } from "./components/ui/SmoothScroll";
 import { TextReveal } from "./components/ui/TextReveal";
+import { HowItWorks } from "./components/sections/HowItWorks";
 
 function App() {
   const [view, setView] = useState<"home" | "generator">("home");
@@ -179,51 +180,7 @@ function App() {
                 </div>
 
                 {/* How it Works */}
-                <div className="w-full max-w-[1800px] mx-auto px-6 py-32">
-                  <div className="mb-24 text-center">
-                    <h2 className="text-5xl font-display font-medium text-primary mb-6 text-pretty tracking-tight">
-                      Snap, Prompt, and Ideate.
-                    </h2>
-                    <p className="text-xl font-light text-zinc-600 font-display italic">
-                      No Design Skills Required.
-                    </p>
-                  </div>
-
-                  <div className="grid md:grid-cols-3 gap-12">
-                    {[
-                      {
-                        step: "01",
-                        title: "Snap",
-                        desc: "Upload a photo of the existing site. Our AI reads the terrain instantly.",
-                      },
-                      {
-                        step: "02",
-                        title: "Prompt",
-                        desc: "Describe your vision. 'Tuscan villa garden with olive trees.'",
-                      },
-                      {
-                        step: "03",
-                        title: "Visualize",
-                        desc: "Generate high-fidelity renders to communicate your design intent instantly.",
-                      },
-                    ].map((item, i) => (
-                      <div
-                        key={i}
-                        className="group border-t border-primary/20 pt-10 hover:bg-white/50 transition-all duration-500"
-                      >
-                        <div className="text-xs font-mono text-primary mb-8 tracking-widest">
-                          STEP {item.step}
-                        </div>
-                        <h3 className="text-3xl font-display mb-4">
-                          {item.title}
-                        </h3>
-                        <p className="text-zinc-600 font-light leading-relaxed">
-                          {item.desc}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
-                </div>
+                <HowItWorks />
 
                 {/* Comparison Stats */}
                 <div className="w-full bg-primary text-[#F4F4F0] px-6 py-32">
