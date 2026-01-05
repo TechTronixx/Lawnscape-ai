@@ -3,7 +3,12 @@
 The intelligent visualization tool for modern architectural studios.
 Transform raw site photos into high-fidelity landscape proposals in seconds.
 
-![App Preview](public/Land_View-Hero.mp4)
+## Demo Preview
+https://github.com/user-attachments/assets/2b416e44-cb42-4241-824c-b0002dcc42a8
+
+## Demo Screenshots
+![Page Preview](https://github.com/TechTronixx/Lawnscape-ai/blob/main/lawnscape-ss.png?raw=true)
+
 
 ## Design Philosophy: "Effortless Elegance"
 
